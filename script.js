@@ -75,25 +75,5 @@ btn.addEventListener("click", function (a) {
     iconError[3].style.display = 'none';
     elError[3].style.display = 'none';
   }
-
-
-
-  /*
-
-    if(cpf.value.length < 11){
-     cpf.style.border = "2px solid red";
-     elError[3].innerText = "Please enter a valid cpf";
-     elError[3].style.display = 'block';
-     iconError[3].style.display = 'inline-block';
-     iconSuccess[3].style.display = 'none';
-  }else if(cpf.value.length == 11 ){
-    cpf.style.border = "2px solid green";
-    elError[3].style.display = "none";
-    iconError[3].style.display = "none";
-    iconSuccess[3].style.display = "inline-block";
-  }
-  */
-
-
 });
  
