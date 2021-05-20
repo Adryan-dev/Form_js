@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --alert-danger: #cf5761;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica;
+  background-color: #9e57d1;
+}
+
+form {
+  max-width: 410px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  background: white;
+  text-align: left;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 7px;
+}
+
+form header {
+  color: #333;
+  margin-bottom: 100px;
+  background-color: #f2f2f2;
+  height: 65px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 15px 0 0 20px;
+  display: block;
+}
+
+form > div.input-wraper:first-of-type {
+  margin-top: 60px;
+}
+
+form > div.input-wraper {
+  position: relative;
+  margin: 20px 0;
+}
+
+form > div.input-wraper label {
+  font-weight: bold;
+  color: #333;
+}
+
+form > div.input-wraper input {
+  border: none;
+  margin: 0 auto;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+  width: 350px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 2px solid rgb(235, 235, 235);
+  transition-duration: 300ms;
+}
+
+form > div.input-wraper input:focus {
+  border: 2px solid rgb(138, 138, 138);
+}
+
+form > div.input-wraper:nth-last-child(1) {
+  margin: 0 auto;
+  text-align: center;
+}
+
+form > div.input-wraper input[type="submit"] {
+  cursor: pointer;
+  background: #ca87fa;
+  font-weight: bold;
+  color: white;
+  max-width: 300px;
+  height: 45px;
+  border-radius: 7px;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  border: none;
+}
+
+form > div.input-wraper input[type="submit"]:hover {
+  background: #a35fd4;
+}
+
+small.error {
+  color: #cf5761;
+}
+small.success {
+  color: green;
+}
+
+i.ierror {
+  position: absolute;
+  top: 43%;
+  right: 7px;
+  font-size: 23px;
+  color: red;
+  display: none;
+}
+
+i.icheck {
+  color: green;
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  font-size: 23px;
+  display: none;
+}
